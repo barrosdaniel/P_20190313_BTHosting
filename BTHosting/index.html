@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BTHosting</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -12,46 +11,43 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/app.css" />
+    <title>BTHosting</title>
   </head>
 
   <body>
-    <!-- Top navigation -->
+    <!-- 
+    Container classes: 
+    Level 1: Component class
+    Level 2: 'grid-container'
+    Level 3: 'grid-x'
+    Level 4: 'cell' + layout class (e.g. 'medium-6'-->
+    <!-- Top navigattion -->
     <div class="top-nav">
       <div class="grid-container">
         <div class="grid-x">
+          <!-- Left column -->
           <div class="cell medium-6">
             <ul class="top-list">
-              <li><i class="fa fa-map-marker"></i>Perth WA Australia</li>
-              <li><i class="fa fa-phone"></i>(08) 3210 4567</li>
+              <li><i class="fa fa-map-marker"></i>Perth, WA, Australia</li>
+              <li><i class="fa fa-phone"></i>Perth, WA, Australia</li>
+              <li><i class="fa fa-envelope-open"></i>Perth, WA, Australia</li>
+            </ul>
+          </div>
+          <!-- Right column -->
+          <div class="cell medium-6">
+            <ul class="top-list-right" id="menu-topmenu">
               <li>
-                <i class="fa fa-envelope-open"></i>contact@bthosting.com.au
+                <a href="#" data-open="loginModal">Client Login</a>
+              </li>
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li>
+                <a href="contact.html">Support</a>
               </li>
             </ul>
           </div>
-
-          <div class="cell medium-6">
-            <ul class="top-list-right" id="topmenu">
-              <li><a href="#" data-open="loginModal">Client Login</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="contact.html">Support</a></li>
-            </ul>
-          </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Top Bar -->
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <h3><span>BT</span>Hosting</h3>
-      </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <li><a href="index.html" class="current">Home</a></li>
-          <li><a href="shared.html">Shared Hosting</a></li>
-          <li><a href="vps.html">VPS Hosting</a></li>
-          <li><a href="dedicated.html">Dedicated Hosting</a></li>
-        </ul>
       </div>
     </div>
 
