@@ -21,7 +21,7 @@
     Level 2: 'grid-container'
     Level 3: 'grid-x'
     Level 4: 'cell' + layout class (e.g. 'medium-6'-->
-    <!-- Top navigattion -->
+    <!-- Top navigation -->
     <div class="top-nav">
       <div class="grid-container">
         <div class="grid-x">
@@ -35,7 +35,7 @@
           </div>
           <!-- Right column -->
           <div class="cell medium-6">
-            <ul class="top-list-right" id="menu-topmenu">
+            <ul class="top-list-right float-right" id="menu-topmenu">
               <li>
                 <a href="#" data-open="loginModal">Client Login</a>
               </li>
@@ -50,7 +50,38 @@
         </div>
       </div>
     </div>
-
+    <!-- Top Bar -->
+    <div class="top-bar-nav">
+      <div class="grid-container">
+        <div class="grid-x">
+          <!-- Left Column -->
+          <div class="cell medium-6">
+            <div class="top-bar-left">
+              <h3><span>BT</span>Hosting</h3>
+            </div>
+          </div>
+          <!-- Right Column -->
+          <div class="cell medium-6">
+            <div class="top-bar-right float-right">
+              <ul class="menu">
+                <li>
+                  <a href="index.html" class="current">Home</a>
+                </li>
+                <li>
+                  <a href="shared.html">Shared Hosting</a>
+                </li>
+                <li>
+                  <a href="vps.html">VPS Hosting</a>
+                </li>
+                <li>
+                  <a href="dedicated.html">Dedicated Servers</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/what-input/dist/what-input.js"></script>
     <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
