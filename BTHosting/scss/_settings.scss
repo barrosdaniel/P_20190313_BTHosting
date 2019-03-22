@@ -73,7 +73,7 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (primary: $primary,
-secondary: $primary,
+secondary: $secondary,
 success: #3adb76,
 warning: #ffae00,
 alert: #cc4b37,
@@ -83,7 +83,7 @@ $medium-light-gray: #ccc;
 $medium-gray: #494b4c;
 $dark-gray: #3d3f40;
 $black: #0a0a0a;
-$white: #fefefe;
+$white: #fafafa;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Helvetica Neue',
